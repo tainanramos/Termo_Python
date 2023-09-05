@@ -5,7 +5,7 @@ import time
 
 
 def main():
-    words = Words("/data/Palavras.xlsx")
+    words = Words(r"data\Palavras.xlsx")
     words.filter_by_size(5)
 
     driver = setup_webdriver()
